@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(46, 53, 53);
+}
+.cajafondo1{
+    display: flex;
+    height: 8rem;
+    background-color: rgb(83, 83, 109) solid;
+    border: 1px solid green; 
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+}
+a{
+    height: 5rem;
+    border: 3px solid !important;
+}
+a:hover{
+    height: 5rem;
+    color: rgb(42, 165, 83) !important;
+}
+h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif,cursive;
+}
+.anima1{
+    transition: transform .8s !important;
+}
+.anima1:hover{
+    transform: scale(2.05);
+}
